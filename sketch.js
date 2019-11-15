@@ -100,6 +100,7 @@ function mousePressed() {
 function mouseReleased() {
   // Quit dragging
   dragging = false;
+}
   if (x > 300 && y < 50 && ellipseColor == 'red') {
     x = 200
     y = 200
@@ -124,4 +125,4 @@ function mouseReleased() {
     score = score + 1
     colorPicker = random(numbers)
   }
-}
+
