@@ -129,25 +129,25 @@ function mouseReleased() {
 }
   if (x > 300 && y < 50 && ellipseColor == 'red') {
     x = 200
-    y = 200
+    y = 0
     score = score + 1
     colorPicker = random(numbers)
   }
   if (x > 300 && y > 300 && ellipseColor == 'green') {
     x = 200
-    y = 200
+    y = 0
     score = score + 1
     colorPicker = random(numbers)
   }
   if (y > 300 && x < 50 && ellipseColor == 'blue') {
     x = 200
-    y = 200
+    y = 0
     score = score + 1
     colorPicker = random(numbers)
   }
   if (x < 50 && y < 50 && ellipseColor == '#FE72ED') {
-    x = 200
-    y = 200
+    x = 0
+    y = 0
     score = score + 1
     colorPicker = random(numbers)
   }
